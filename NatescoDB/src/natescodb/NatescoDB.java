@@ -14,7 +14,7 @@ public class NatescoDB {
 
         Producto producto = new Producto();
 
-        producto.insertarProducto("tornillo", "500");
+        //producto.insertarProducto("tornillo", "500");
 
         producto.getDatos();
 
