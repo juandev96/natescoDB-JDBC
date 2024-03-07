@@ -14,15 +14,15 @@ public class NatescoDB {
 
         Producto producto = new Producto();
 
-        //producto.insertarProducto("tornillo", "500");
+        producto.insertarProducto("tornillo", "500");
 
-        //producto.getDatos();
+        producto.getDatos();
 
-        //producto.actualizarProducto("6", "tornillo", "200");
+        producto.actualizarProducto("6", "tornillo", "200");
 
         producto.eliminarProducto("6");
 
-        //producto.getDatos();
+        producto.getDatos();
     }
 
 }
